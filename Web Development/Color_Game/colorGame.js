@@ -25,6 +25,8 @@ easyButton.addEventListener("click", function () {
 			squares[i].style.display = "none";
 		}
 	}
+	h1.style.background = "#cd853f";
+
 });
 
 hardButton.addEventListener("click", function () {
@@ -38,6 +40,8 @@ hardButton.addEventListener("click", function () {
 		squares[i].style.background = colors[i];
 		squares[i].style.display = "block";
 	}
+	h1.style.background = "#cd853f";
+
 });
 
 
