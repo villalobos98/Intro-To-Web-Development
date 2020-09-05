@@ -17,13 +17,33 @@ body {
 	margin: 0px auto;
 	max-width: 600px;
 }
+#colorDisplay{
+	font-size: 200%;
+}
 
+
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
 h1 {
 	color: white;
 	text-align: center;
 	background-color: peru;
 	margin: 0;
 	text-transform: uppercase;
+	line-height: 0.8;
+	padding-bottom: 3%;
+	/* padding: 24px 0; */
+}
+button{
+	border: 0;
+	background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
 }
 
 #stripe {
