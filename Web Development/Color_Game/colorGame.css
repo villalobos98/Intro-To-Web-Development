@@ -48,6 +48,11 @@ button{
 	font-size: 110%;
 }
 
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
 #stripe {
 	background: white;
 	height: 30px;
