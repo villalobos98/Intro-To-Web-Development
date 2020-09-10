@@ -46,6 +46,7 @@ button{
 	font-weight: 700;
 	color: peru;
 	font-size: 110%;
+	transition: all 0.3s;
 }
 
 #message{
@@ -63,5 +64,12 @@ button{
 }
 
 .selected{
-	background: grey;
+	background: peru;
+	color: white;
+}
+
+button:hover{
+	color: white;
+	background: peru;
+
 }
