@@ -7,10 +7,12 @@ body {
 
 .square {
 	width: 30%;
-	background: purple;
+	/* background: purple; */
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 1s;
 }
 
 #container {
@@ -39,6 +41,7 @@ h1 {
 	padding-bottom: 20px;
 	/* padding: 24px 0; */
 }
+
 button{
 	border: 0;
 	background: none;
