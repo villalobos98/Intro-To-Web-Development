@@ -1,4 +1,4 @@
-var numberOfSqures = 6;
+var numberOfSqures = 3;
 var colors = generateRandomColors(numberOfSqures);
 var squares = document.querySelectorAll(".square");
 var winningColor = pickColor();
